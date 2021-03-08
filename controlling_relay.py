@@ -9,7 +9,8 @@ GPIO.output(12, GPIO.HIGH)
 GPIO.output(24, GPIO.HIGH) 
 time.sleep(0.5)
 
-X=input("Do you wish to switch both the relays off? [YES/NO]") 
+X=input("Do you wish to switch both the relays off? [YES/NO]")
+
 if(X == "YES" or X=="yes"): 
   GPIO.output(12, GPIO.LOW) 
   GPIO.output(24, GPIO.LOW) 
